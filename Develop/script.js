@@ -14,14 +14,15 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 function generatePassword() {
-  var passLength = prompt("How long would you like your password to be? (8-128)")
-  var upper = confirm("Would you like to include uppercase numbers?")
-  var special = confirm("Would you like to include special characters?")
-  var numeric = confirm("Would you like to include numbers?")
-  var lower = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
-  var genArray = []
+  var passLength = prompt("How long would you like your password to be? (8-128)");
+  var upper = confirm("Would you like to include uppercase numbers?");
+  var special = confirm("Would you like to include special characters?");
+  var numeric = confirm("Would you like to include numbers?");
+  var lower = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+  var special = [" ", "!" '"', "'", "#", ]
+  var genArray = [];
   if (upper) {
-    genArray = genArray.concat(lower.map(letter => letter.toUpperCase()))
+    genArray = genArray.concat(lower.map(letter => letter.toUpperCase()));
   }
   if (special) {
 
