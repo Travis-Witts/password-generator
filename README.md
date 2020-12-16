@@ -1,6 +1,6 @@
 # Password Generator
 
-A link to the deployed webpage is [HERE] (https://travis297.github.io/portfolio-page/)
+A link to the deployed webpage is [HERE] (https://github.com/Travis297/password-generator)
 
  ## Table of Contents
 
