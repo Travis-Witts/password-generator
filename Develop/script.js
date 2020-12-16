@@ -52,9 +52,8 @@ function generatePassword() {
 // This function takes a highest and lowest value and creates an array of all the numbers inclusively.
 function arrayBuilder(lowVal, highVal) {
   var array = [];
-  for (var i = lowVal; i <= highVal; i++) {
-    array.push(i);
-
+  while (lowVal <= highVal) {
+    array.push(lowVal++);
   }
   return array
 }
