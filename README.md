@@ -1,6 +1,6 @@
 # Password Generator
 
-A link to the deployed webpage is [HERE] (https://github.com/Travis297/password-generator)
+A link to the deployed webpage is [HERE](https://github.com/Travis297/password-generator)
 
  ## Table of Contents
 
@@ -23,10 +23,10 @@ generator for each character in order to create an ASCII value.
 It looks like this initially:
 
 
-![alt text](assets/initial.png)
+![alt text](Assets/initial.png)
 
 
 Then once the new password has been generated it will display it inside the center box
 like thi:
 
-![alt text](assets/generated.png)
+![alt text](Assets/generated.png)
